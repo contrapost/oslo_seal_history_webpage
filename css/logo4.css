@@ -1,0 +1,23 @@
+body {
+	background-color: rgb(153, 53, 20);
+}
+
+#logo {
+	height: 550px;
+	width: 466px;
+	margin: auto;
+	position: relative;
+}
+
+#skrift {
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	left: 16px;
+	top: 90px;
+	display: none;
+}
+
+#logo:hover #skrift {
+	display: block;
+} 

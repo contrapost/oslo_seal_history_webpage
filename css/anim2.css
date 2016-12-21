@@ -1,0 +1,180 @@
+body {
+	background-color: rgb(153, 53, 20);
+}
+a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+}
+#rammeImg {
+	height: 620px;
+	width: 980px;
+}
+#ramme{
+	margin: auto;
+	width: 980px;
+	height: 620px;
+	position: relative;
+	
+}
+#bakgrunn{
+	top: 10px;
+	left: 10px;
+	width: 960px;
+	height: 600px;
+	background-image: url("../bilder/side2.jpeg");
+	position: absolute;
+	overflow: hidden;
+}
+#hallvard{
+	height: 20px;
+	width: 10px;
+	left: 450px;
+	top: 100px;
+	position: absolute;
+}
+#dame{
+	height: 20px;
+	width: 10px;
+	left: -150px;
+	top: 100px;
+	position: relative;
+	-webkit-animation: dameLoeper 4s linear 1s 1 forwards;
+}
+#tekstboks{
+	left: 232px;
+	bottom: 42px;
+	width: 500px;
+	height: 105px;
+	position: absolute;
+	border-radius: 12%;
+	background-color: rgb(215, 178, 119);
+	font-size: 1em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	overflow: hidden;
+}
+#tekstCont{
+	margin-left: 60px;
+	top: 150px;
+	width: 390px;
+	height: 1000px;
+	text-align: left;
+}
+#hullTekstboks{
+	left: 210px;
+	width: 545px;
+	height: 127px;
+	bottom: 30px;
+	position: absolute;
+}
+.pilStr{
+	width: 20px;
+}
+.pilForrige{
+	left: 20px;
+	position: absolute;
+}
+.pilNeste{
+	right: 20px;
+	position: absolute;
+}
+#start{
+	height: 220px;
+}
+.dialog{
+	display: table;
+}
+.openSpace{
+	color: rgb(215, 178, 119);
+}
+.pilerStart{
+	top: 45px;
+}
+.pilerstart ~ .pilerstart{
+	top: 220px;
+}
+.pilerstart ~ .pilerSent01{
+	top: 50px;
+}
+.pilerSent01{
+	top: 265px;
+}
+.pilerSent02{
+	top: 389px;
+}
+#ytterst{
+	width: 970px;
+	height: 610px;
+	position: relative;
+	margin-left: auto;	
+	margin-right: auto;
+}
+#next{
+	height: 128px;
+	width: 128px;
+	right: 35px;
+	bottom: -140px;
+	position: absolute;
+}
+@-webkit-keyframes dameLoeper{
+	0%{
+		left: -150px;
+	}
+	10%{
+		transform: rotate(-5deg)
+	}
+	15%{
+		transform: rotate(5deg)
+	}
+	20%{
+		transform: rotate(-5deg)
+	}
+	25%{
+		transform: rotate(5deg)
+	}
+	30%{
+		transform: rotate(-5deg)
+	}
+	35%{
+		transform: rotate(5deg)
+	}
+	40%{
+		transform: rotate(-5deg)
+	}
+	45%{
+		transform: rotate(5deg)
+	}
+	50%{
+		transform: rotate(-5deg)
+	}
+	55%{
+		transform: rotate(5deg)
+	}
+	60%{
+		transform: rotate(-5deg)
+	}
+	65%{
+		transform: rotate(5deg)
+	}
+	70%{
+		transform: rotate(-5deg)
+	}
+	75%{
+		transform: rotate(5deg)
+	}
+	80%{
+		transform: rotate(-5deg)
+	}
+	85%{
+		transform: rotate(5deg)
+	}
+	90%{
+		transform: rotate(-5deg)
+	}
+	95%{
+		transform: rotate(5deg)
+	}
+	100%{
+		left: 250px;
+	}
+}

@@ -1,0 +1,140 @@
+body{
+	background-color: rgb(153, 53, 20);
+}
+a{
+	/*text-decoration: none;*/
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+}
+#rammeImg{
+	height: 620px;
+	width: 980px;
+}
+#ramme{
+	margin: auto;
+	width: 980px;
+	height: 620px;
+	position: relative;
+}
+#bakgrunn{
+	top: 10px;
+	left: 10px;
+	width: 960px;
+	height: 600px;
+	margin: auto;	
+	background-color: rgb(40,100,240);
+	position: absolute;
+	overflow: hidden;
+}
+#bakgrunn *{
+	position: absolute;
+}
+#skjold{
+	height: 400px;
+	width: 400px;
+	top: 100px;
+	left: 280px;
+}
+#cam{
+	top: 63px;
+	left: 455px;
+}
+#gun{
+	top: 210px;
+	right: 103px;
+}
+#alex{
+	top: 455px;
+	right: 113px;
+}
+#sti{
+	top: 210px;
+	left: 100px;	
+}
+#mag{
+	top: 455px;
+	left: 95px;
+}	
+#stine{
+	height: 50px;
+	width: 50px;
+	top: 150px;
+	left: 95px;
+}
+#magnus{
+	height: 50px;
+	width: 50px;
+	top: 400px;
+	left: 95px;
+}
+#camilla{
+	top: 14px;
+	left: 455px;
+	height: 50px;
+	width: 50px;
+}
+#gunnar{
+	width: 50px;
+	height: 50px;
+	top: 150px;
+	right: 55px;
+}
+#alexander{
+	height: 50px;
+	width: 50px;
+	top: 400px;
+	right: 55px;
+}
+#ytterst{
+	width: 970px;
+	height: 610px;
+	position: relative;
+	margin-left: auto;	
+	margin-right: auto;
+}
+#next{
+	height: 128px;
+	width: 128px;
+	bottom: -140px;
+	position: absolute;
+}
+#cam:target~#camilla{	/*for å få element til å forandre seg ved å klikke på det*/
+	height: 268px;
+	width: 282px;
+	border-radius: 280px;
+	left:338px;
+	top:196px;
+	-webkit-transition: all 2s ease 0s;
+}
+#gun:target~#gunnar{
+	height: 266px;
+	width: 283px;
+	border-radius: 280px;
+	right:340px;
+	top:196px;
+	-webkit-transition: all 2s ease 0s;
+}
+#alex:target~#alexander{
+	height: 266px;
+	width: 283px;
+	border-radius: 280px;
+	right:340px;
+	top:196px;
+	-webkit-transition: all 2s ease 0s;
+}
+#sti:target~#stine{
+	height: 265px;
+	width: 284px;
+	border-radius: 280px;
+	left:337px;
+	top:196px;
+	-webkit-transition: all 2s ease 0s;
+}
+#mag:target~#magnus{
+	height: 265px;
+	width: 284px;
+	border-radius: 280px;
+	left:337px;
+	top:196px;
+	-webkit-transition: all 2s ease 0s;
+}

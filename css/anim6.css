@@ -1,0 +1,242 @@
+body{
+	background-color: rgb(153, 53, 20);
+}
+#bakgrunn{
+	top: 10px;
+	left: 10px;
+	width: 960px;
+	height: 600px;
+	background-image: url("../bilder/side6.jpeg");
+	position: absolute;
+	overflow: hidden;
+}
+#rammeImg{
+	height: 620px;
+	width: 980px;
+}
+#ramme{
+	margin: auto;
+	width: 980px;
+	height: 620px;
+	position: relative;
+}
+#bakgrunn *{
+	position: absolute;
+}
+#tekstBoksImg{
+	width: 510px;
+	height: 120px;
+}
+#tekstBoksUnder{
+	top: 105.5px;
+	height: 15px;
+	width: 510px;
+	position: absolute;
+}
+#textBoks{
+	left: 225px;
+	bottom: 30px;
+	width: 510px;
+	height: 120px;
+	position: absolute;
+	font-size: 1em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	overflow: hidden;
+}
+#textCont{
+	margin-top: 20px;
+	margin-left: 60px; 
+	top: 150px;
+	width: 390px;
+	height: 1000px;
+	text-align: left;
+	-webkit-animation: story 5s linear forwards;
+}
+#dialogMeny{
+	bottom: 0px;
+	left: 325px;
+	width: 310px;
+	height: 20px;
+	position: absolute;
+}
+.dialog{
+	display: table;
+}
+.openSpace{
+	color: white;
+}
+#baat1{
+	height:153px;
+	width:220px;
+	left:100px;
+	top:278px;
+}
+#baat2{
+	height:125px;
+	width:184px;
+	left:645px;
+	top:300px;
+	-webkit-animation: baatMovement 3s linear 0s 1 alternate;
+}
+#hallvard{
+	height:110px;
+	width:75px;
+	left:-100px;
+	top:299px;
+	-webkit-animation: hallvardMovement 3s linear 0s 1 alternate;
+}
+#hallvard2{
+	height:120px;
+	width:132px;
+	left:641px;
+	top:283px;
+	-webkit-animation: hallvard2Movement 3s linear 0s 1 alternate;
+}
+#cover{
+	height:130px;
+	width:140px;
+	left:-150px;
+	top:283px;
+	-webkit-animation: coverMovement 3s linear 0s 1 alternate;
+}
+#pil1{
+	height:65px;
+	width:13px;
+	left:-100px;
+	-webkit-transform: rotate(90deg);
+	-webkit-animation: pil1Movement 2s linear 1s 1 alternate;
+}
+#pil2{
+	height:65px;
+	width:13px;
+	left:-100px;
+	top:500px;
+	-webkit-transform: rotate(90deg);
+	-webkit-animation: pil2Movement 1s linear 2s 1 alternate;
+}
+.skyer1{
+	height:80px;
+	width:120px;
+}
+#sky1{
+	left:-50px; 
+}
+#sky2{
+	left:900px;
+}
+#sky3{
+	left:800px;
+}
+#sky4{
+	left:700px;
+}
+#sky5{
+	left:600px;
+}
+#sky6{
+	left:500px;
+}
+#sky7{
+	left:400px;
+}
+#sky8{
+	left:300px;
+}
+#sky9{
+	left:200px;
+}
+#sky10{
+	left:150px;
+}
+#sky11{
+	left:100px;
+}
+#sky12{
+	left:0px;
+}
+#ytterst{
+	width: 970px;
+	height: 610px;
+	position: relative;
+	margin-left: auto;	
+	margin-right: auto;
+}
+#next{
+	height: 128px;
+	width: 128px;
+	right: 35px;
+	bottom: -140px;
+	position: absolute;
+}
+@-webkit-keyframes story{
+	0%{
+		margin-top: -20px;
+	}
+	100%{
+		margin-top: -137px;
+	}
+}
+@-webkit-keyframes baatMovement{
+	from{
+		left:360px;
+		top:300px;
+	}
+	to{
+		left:645px;
+		top:300px;
+	}
+}
+@-webkit-keyframes hallvardMovement{
+	1%{
+		left:375px;
+		top:299px;
+	}
+	100%{
+		left:660px;
+		top:299px;
+	}
+}
+@-webkit-keyframes hallvard2Movement{
+	0%{
+		left:-150px;
+		top:283px;
+	}
+	1%{
+		left:375px;
+		top:283px;
+	}
+	100%{
+		left:660px;
+		top:283px;
+	}
+}
+@-webkit-keyframes coverMovement{
+	0%{
+		left:375px;
+		top:283px;
+	}
+	100%{
+		left: 660px;
+		top: 283px;
+	}
+}
+@-webkit-keyframes pil1Movement{
+	0%{
+		left:305px;
+		top:300px;
+	}
+	100%{
+		left:1000px;
+		top:300px;
+	}
+}
+@-webkit-keyframes pil2Movement{
+	0%{
+		left:305px;
+		top:300px;
+	}
+	100%{
+		left:650px;
+		top:300px;
+	}
+}

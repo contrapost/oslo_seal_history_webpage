@@ -1,0 +1,320 @@
+body{
+	background-color: rgb(153, 53, 20);
+}
+#bakgrunn{
+	width: 960px;
+	height: 600px;
+	margin: auto;
+	background-image: url("../bilder/side8.png");
+	position: relative;
+}
+#ytterst{
+	width: 970px;
+	height: 610px;
+	position: relative;
+	margin-left: auto;	
+	margin-right: auto;
+}
+#next{
+	height: 128px;
+	width: 128px;
+	right: 35px;
+	bottom: -140px;
+	position: absolute;
+}
+#tekstBoksImg{
+	width: 510px;
+	height: 120px;
+}
+#tekstBoksUnder{
+	top: 105.5px;
+	height: 15px;
+	width: 510px;
+	position: absolute;
+}
+#textBoks{
+	left: 125px;
+	bottom: 30px;
+	width: 510px;
+	height: 120px;
+	position: absolute;
+	font-size: 13px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	overflow: hidden;
+}
+#textCont{
+	margin-top: 20px;
+	margin-left: 60px; 
+	top: 150px;
+	width: 390px;
+	height: 1000px;
+	text-align: left;
+	-webkit-animation: story 5s linear forwards;
+}
+#dialogMeny{
+	bottom: 0px;
+	left: 325px;
+	width: 310px;
+	height: 20px;
+	position: absolute;
+}
+#dialog{
+	display: table;
+}
+.openSpace{
+	color: white;
+}
+.anim{
+	position: absolute;
+}
+.anim1{
+	left: 600px;
+	top: 350px;
+	-webkit-animation: blomster1DukkerOpp 3s linear 1s alternate forwards;
+}
+.anim2{
+	left: 850px;
+	top: 200px;
+	-webkit-animation: blomster2DukkerOpp 3s linear 3s alternate forwards;
+}
+.anim3{
+	left: 880px;
+	top: 300px;
+	-webkit-animation: blomster3DukkerOpp 3s linear 0.5s alternate forwards;
+}
+.anim4{
+	left: 500px;
+	top: 400px;
+	-webkit-animation: blomster4DukkerOpp 3s linear 0.2s alternate forwards;
+}
+.anim5{
+	left: 800px;
+	top: 60px;
+	-webkit-animation: blomster5DukkerOpp 3s linear 1.5s alternate forwards;
+}
+.anim6{
+	left: 570px;
+	top: 180px;
+	-webkit-animation: blomster6DukkerOpp 3s linear 2.5s alternate forwards;
+}
+.anim7{
+	left: 700px;
+	top: 100px;
+	-webkit-animation: blomster7DukkerOpp 3s linear 0.75s alternate forwards;
+}
+.anim8{
+	left: 850px;
+	top: 400px;
+	-webkit-animation: blomster8DukkerOpp 3s linear 1.75s alternate forwards;
+}
+.anim9{
+	left: 545px;
+	top: 250px;
+	-webkit-animation: blomster9DukkerOpp 3s linear 1.35s alternate forwards;
+}
+.anim10{
+	left: 840px;
+	top: 100px;
+	-webkit-animation: blomster10DukkerOpp 3s linear 1.95s alternate forwards;
+}
+.anim11{
+	left: 510px;
+	top: 150px;
+	-webkit-animation: blomster11DukkerOpp 3s linear 2.15s alternate forwards;
+}
+.anim12{
+	left: 618px;
+	top: 175px;
+	-webkit-animation: blomster12DukkerOpp 3s linear 0.75s alternate forwards;
+}
+.blomst{
+	height: 0px;
+	width: 0px;
+	-webkit-animation: blomsterDukkerOpp 3s linear alternate forwards;
+}
+.blomst1{
+	-webkit-animation-name: blomsterDukkerOpp;
+	-webkit-animation-delay: 1s;
+}
+.blomst2{
+	-webkit-animation-name: blomsterDukkerOpp;
+	-webkit-animation-delay: 2s;
+}
+.blomst3{
+	-webkit-animation-name: blomsterDukkerOpp;
+	-webkit-animation-delay: 0.5s;
+}
+.blomst4{
+	-webkit-animation-name: blomsterDukkerOpp;
+	-webkit-animation-delay: 0.2s;
+}
+.blomst5{
+	-webkit-animation-name: blomsterDukkerOpp;
+	-webkit-animation-delay: 1.5s;
+}
+.blomst6{
+	-webkit-animation-name: blomsterDukkerOpp;
+	-webkit-animation-delay: 2.5s;
+}
+.blomst7{
+	-webkit-animation-name: blomsterDukkerOpp;
+	-webkit-animation-delay: 0.75s;
+}
+.blomst8{
+	-webkit-animation-name: blomsterDukkerOpp;
+	-webkit-animation-delay: 1.75s;
+}
+.blomst9{
+	-webkit-animation-name: blomsterDukkerOpp;
+	-webkit-animation-delay: 1.35s;
+}
+.blomst10{
+	-webkit-animation-name: blomsterDukkerOpp;
+	-webkit-animation-delay: 1.95s;
+}
+.blomst11{
+	-webkit-animation-name: blomsterDukkerOpp;
+	-webkit-animation-delay: 2.15s;
+}
+.blomst12{
+	-webkit-animation-name: blomsterDukkerOpp;
+	-webkit-animation-delay: 0.75s;
+}
+@-webkit-keyframes blomster1DukkerOpp{
+	0%{
+		left: 600px;
+		top: 350px;
+	}
+	100%{
+		left: 585px;
+		top: 334px;
+	}
+}
+@-webkit-keyframes blomster2DukkerOpp{
+	0%{
+		left: 850px;
+		top: 200px;
+	}
+	100%{
+		left: 835px;
+		top: 184px;
+	}
+}
+@-webkit-keyframes blomster3DukkerOpp{
+	0%{
+		left: 880px;
+		top: 300px;
+	}
+	100%{
+		left: 865px;
+		top: 284px;
+	}
+}
+@-webkit-keyframes blomster4DukkerOpp{
+	0%{
+		left: 500px;
+		top: 400px;
+	}
+	100%{
+		left: 485px;
+		top: 386px;
+	}
+}
+@-webkit-keyframes blomster5DukkerOpp{
+	0%{
+		left: 800px;
+		top: 50px;
+	}
+	100%{
+		left: 785px;
+		top: 34px;
+	}
+}
+@-webkit-keyframes blomster6DukkerOpp{
+	0%{
+		left: 570px;
+		top: 180px;
+	}
+	100%{
+		left: 555px;
+		top: 164px;
+	}
+}
+@-webkit-keyframes blomster7DukkerOpp{
+	0%{
+		left: 700px;
+		top: 100px;
+	}
+	100%{
+		left: 685px;
+		top: 84px;
+	}
+}
+@-webkit-keyframes blomster8DukkerOpp{
+	0%{
+		left: 850px;
+		top: 400px;
+	}
+	100%{
+		left: 835px;
+		top: 384px;
+	}
+}
+@-webkit-keyframes blomster9DukkerOpp{
+	0%{
+		left: 545px;
+		top: 250px;
+	}
+	100%{
+		left: 530px;
+		top: 234px;
+	}
+}
+@-webkit-keyframes blomster10DukkerOpp{
+	0%{
+		left: 840px;
+		top: 100px;
+	}
+	100%{
+		left: 825px;
+		top: 84px;
+	}
+}
+@-webkit-keyframes blomster11DukkerOpp{
+	0%{
+		left: 510px;
+		top: 150px;
+	}
+	100%{
+		left: 495px;
+		top: 134px;
+	}
+}
+@-webkit-keyframes blomster12DukkerOpp{
+	0%{
+		left: 618px;
+		top: 175px;
+	}
+	100%{
+		left: 603px;
+		top: 159px;
+	}
+}
+@-webkit-keyframes blomsterDukkerOpp{
+	0%{
+		height: 0px;
+		width: 0px;
+	}
+	100%{
+		height: 65px;
+		width: 64px;
+	}
+}
+@-webkit-keyframes story{
+	0%{
+		margin-top: -20px;
+	}
+	100%{
+		margin-top: -122px;
+	}
+}

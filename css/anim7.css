@@ -1,0 +1,206 @@
+body{
+	background-color: rgb(153, 53, 20);
+}
+#rammeImg{
+	height: 620px;
+	width: 980px;
+}
+#ramme{
+	margin: auto;
+	width: 980px;
+	height: 620px;
+	position: relative;
+}
+#bakgrunn{
+	top: 10px;
+	left: 10px;
+	width: 960px;
+	height: 600px;
+	background-image: url("../bilder/side7.png");
+	position: absolute;
+	overflow: hidden;
+}
+#ytterst{
+	width: 970px;
+	height: 610px;
+	position: relative;
+	margin-left: auto;	
+	margin-right: auto;
+}
+#next{
+	height: 128px;
+	width: 128px;
+	right: 35px;
+	bottom: -140px;
+	position: absolute;
+}
+#hallvardBilde {
+	width: 210px;
+	height: 475px;
+}
+#hallvardDunker{
+	top: -600px;
+	left: 350px;
+	position: absolute;
+	-webkit-animation: dunker 15s linear alternate forwards;
+}
+#tekstBoksImg{
+	width: 510px;
+	height: 120px;
+}
+#tekstBoksUnder{
+	top: 105.5px;
+	height: 15px;
+	width: 510px;
+	position: absolute;
+}
+#textBoks{
+	left: 225px;
+	bottom: 30px;
+	width: 510px;
+	height: 120px;
+	position: absolute;
+	font-size: 1em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	overflow: hidden;
+}
+#textCont{
+	margin-top: 20px;
+	margin-left: 60px; 
+	top: 150px;
+	width: 390px;
+	height: 1000px;
+	background-color: white;
+	text-align: left;
+	-webkit-animation: story 5s linear forwards;
+}
+#dialogMeny{
+	bottom: 0px;
+	left: 325px;
+	width: 310px;
+	height: 20px;
+	position: absolute;
+}
+.dialog{
+	display: table;
+}
+#fisk1{
+	left: -250px;
+	bottom: 300px;
+	position: absolute;
+	-webkit-animation: fisk1BevegerSeg 10s linear 4s alternate forwards;
+}
+
+#fisk2{
+	left: 1000px;
+	bottom: 200px;
+	position: absolute;
+	-webkit-animation: fisk2BevegerSeg 5s linear alternate forwards;
+}
+#fisk3{
+	top: -175px;
+	left: 800px;
+	position: absolute;
+	-webkit-animation: fisk3BevegerSeg 10s linear 4s alternate forwards;
+}
+#fisk4{
+	left: 1000px;
+	bottom: -100px;
+	position: absolute;
+	-webkit-animation: fisk4BevegerSeg 8s linear 4s alternate forwards;
+}
+@-webkit-keyframes story{
+	0%{
+		margin-top: -20px;
+	}
+	100%{
+		margin-top: -120px;
+	}
+
+}
+@-webkit-keyframes fisk1BevegerSeg{
+	0%{
+		left: -250px;
+		bottom: 300px;
+	}
+	100%{
+		left: 950px;
+		bottom: 300px;
+	}
+}
+@-webkit-keyframes fisk2BevegerSeg{
+	0%{
+		left: 1000px;
+		bottom: 200px;
+	}
+	100%{
+		left: -300px;
+		bottom: 200px;
+	}
+}
+@-webkit-keyframes fisk3BevegerSeg{
+	0%{
+		top: -175px;
+		left: 800px;
+	}
+	100%{
+		top: 800px;
+		left: 200px;
+	}
+}
+@-webkit-keyframes fisk4BevegerSeg{
+	0%{
+		left: 1000px;
+		bottom: -100px;
+	}
+	100%{
+		left: -200px;
+		bottom: 700px;
+	}
+}
+@-webkit-keyframes dunker{
+	0%{
+		top: -600px;
+		-webkit-transform: rotate(15deg);
+		}
+	10%{
+		top: -400px;
+		-webkit-transform: rotate(-15deg);
+		}
+	20%{
+		top: -200px;
+		-webkit-transform: rotate(15deg);
+		}
+	30%{
+		top: 0px;
+		-webkit-transform: rotate(-15deg);
+		}
+	40%{
+		top: 200px;
+		-webkit-transform: rotate(15deg);
+		}
+	50%{
+		top: 400px;
+		-webkit-transform: rotate(-15deg);
+		}
+	60%{
+		top: 600px;
+		-webkit-transform: rotate(15deg);
+		}
+	70%{
+		top: 800px;
+		-webkit-transform: rotate(-15deg);
+		}
+	80%{
+		top: 1000px;
+		-webkit-transform: rotate(15deg);
+		}
+	90%{
+		top: 1200px;
+		-webkit-transform: rotate(-15deg);
+		}
+	100%{
+		top: 1400px;
+		-webkit-transform: rotate(15deg);
+		}
+	}

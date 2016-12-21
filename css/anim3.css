@@ -1,0 +1,262 @@
+body{
+	background-color: rgb(153, 53, 20);
+}
+#bakgrunn{
+	top: 10px;
+	left: 10px;
+	width: 960px;
+	height: 600px;
+	margin: auto;
+	background-image: url("../bilder/side3.jpeg");
+	position: absolute;
+	overflow: hidden;
+}
+#rammeImg {
+	height: 620px;
+	width: 980px;
+}
+#ramme{
+	margin: auto;
+	width: 980px;
+	height: 620px;
+	position: relative;
+}
+#bakgrunn *{
+	position: absolute;
+}
+#tekstBoksImg{
+	width: 510px;
+	height: 120px;
+}
+#tekstBoksUnder{
+	top: 105.5px;
+	height: 15px;
+	width: 510px;
+	position: absolute;
+}
+#textBoks{
+	left: 225px;
+	bottom: 30px;
+	width: 510px;
+	height: 120px;
+	position: absolute;
+	font-size: 1em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	overflow: hidden;
+}
+#textCont{
+	margin-top: 100px;
+	margin-left: 60px; 
+	top: 23px;
+	width: 390px;
+	height: 80px;
+	text-align: left;
+	-webkit-animation: story 5s linear forwards;
+}
+#dialogMeny{
+	bottom: 0px;
+	left: 325px;
+	width: 310px;
+	height: 20px;
+	position: absolute;
+}
+.dialog{
+	display: table;
+}
+.openSpace{
+	color: white;
+}
+#ytterst{
+	width: 970px;
+	height: 610px;
+	position: relative;
+	margin-left: auto;	
+	margin-right: auto;
+}
+#next{
+	height: 128px;
+	width: 128px;
+	right: 35px;
+	bottom: -140px;
+	position: absolute;
+}
+#baat1{
+	height: 100px;
+	width: 165px;
+	left: -155px;
+	top: 300px;
+	-webkit-animation: hallvardBaat 18s linear 1s 1 alternate;
+}
+#baat2{
+	height:100px; 
+	width:160px;
+	left:-160px;
+	top:300px;
+	-webkit-animation: mennBaat 13s linear 8s 1 alternate;
+}
+#himmel{
+	top:0px;
+	left:0px;
+	-webkit-animation: himmelBeveg 20s linear 0s alternate;
+}
+#sol{
+	height:70px;
+	width:70px;  
+	left:-90px;
+	top:70px;
+	-webkit-animation: solBeveg 15s linear 4s 1 alternate;
+}
+.skyer1{
+	left:-120px;
+	height:80px;
+	width:120px;
+	-webkit-animation: skyerBeveg 5s linear 0s infinite alternate;
+}
+.skyer2{
+	height:80px;
+	width:120px;
+	top:50px;
+	-webkit-transition: all 3s linear 0s;
+}
+.skyer2:hover{
+	-weblit-transform: rotate(2160deg)
+}
+#sky1{
+-webkit-animation-delay:0s;
+}
+#sky2{
+-webkit-animation-delay:1s;
+}
+#sky3{
+	-webkit-animation-delay:2s;
+}
+#sky4{
+	-webkit-animation-delay:3s;
+}
+#sky5{
+	-webkit-animation-delay:4s;
+}
+#sky6{
+	-webkit-animation-delay:5s;
+}
+#sky7{
+	-webkit-animation-delay:6s;
+}
+#sky8{
+	-webkit-animation-delay:7s;
+}
+#sky9{
+	-webkit-animation-delay:8s;
+}
+#sky10{
+	-webkit-animation-delay:9s;
+}
+#sky11{
+	-webkit-animation-delay:10s;
+}
+#sky12{
+	-webkit-animation-delay:11s;
+}
+#sky13{
+	left:1000px;
+}
+#sky14{
+	left:900px;
+}
+#sky15{
+	left:800px;
+}
+#sky16{
+	left:700px;
+}
+#sky17{
+	left:600px;
+}
+#sky18{
+	left:500px;
+}
+#sky19{
+	left:400px;
+}
+#sky20{
+	left:300px;
+}
+#sky21{
+	left:200px;
+}
+#sky22{
+	left:150px;
+}
+#sky23{
+	left:100px;
+}
+#sky23{
+	left:50px;
+}
+#slott{
+	height:100px;
+	width:150px;
+	top:96px;
+	right:70px;
+}
+@-webkit-keyframes story{
+	0%{
+		margin-top: 100px;
+	}
+	100%{
+		margin-top: -10px;
+	}
+}
+@-webkit-keyframes hallvardBaat{
+	0%{
+		top: 300px;
+	 	left: -155px;
+	}
+	100%{
+		top:320px;
+		left:1100px;
+	}
+}
+@-webkit-keyframes mennBaat{
+	0%{
+		top:300px;
+		left:-170px;
+	}
+	100%{
+		top:300px;
+		left:1100px;
+	}
+}
+@-webkit-keyframes himmelBeveg{
+	0%{
+		left: 0px;
+		top:-300px;
+	}
+	100%{
+		left: 0px;
+		top: 0px;
+	}
+}
+@-webkit-keyframes solBeveg{
+	0%{
+		top:100px;
+		left:-90px;
+	}
+	50%{
+		top:0px;
+	}
+	100%{
+		top:100px;
+		left:800px;
+	}
+}
+@-webkit-keyframes skyerBeveg{
+	0%{
+		left:-100px;
+		top:0px; 
+	}
+	100%{
+		left:1000px;
+		top:0px;
+	}
+}

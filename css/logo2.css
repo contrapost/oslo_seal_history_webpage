@@ -1,0 +1,23 @@
+body {
+	background-color: rgb(153, 53, 20);
+}
+
+#logo {
+	height: 550px;
+	width: 466px;
+	margin: auto;
+	position: relative;
+}
+
+#kvinnen {
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	top: 378px;
+	left: 84px;
+	display: none;
+}
+
+#logo:hover #kvinnen {
+	display: block;
+} 

@@ -1,0 +1,80 @@
+body {
+	background-color: rgb(153, 53, 20);
+}
+
+#logo{
+	height: 550px;
+	width: 466px;
+	margin: auto;
+	position: relative;
+}
+
+.lenke{
+	bottom: 11px;
+	height: 35px;
+	width: 140px;
+	position: absolute;
+	padding-top: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: rgb(25, 20, 20);
+	border: 4px solid rgb(103, 13, 0);
+	background-color: rgb(133, 33, 0);
+}
+
+.lenke:hover{
+	background-color: rgb(103, 3, 0);
+	border: 4px solid rgb(73, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+.episode8:hover{
+	background-color: rgb(103, 3, 100);
+	border: 4px solid rgb(73, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+#menuBottom{
+	height: 50px;
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: -60px;
+	position: relative;
+}
+
+
+.start{
+	left: 30px;
+}
+
+.episode2{
+	left: 190px;
+}
+
+.episode3{
+	left: 350px;
+}
+
+.episode4{
+	left: 510px;
+}
+
+.episode5{
+	left: 670px;
+}
+
+.episode6{
+	left: 830px;
+}
+
+.episode7{
+	left: 990px;
+}
+
+.episode8{
+	left: 1150px;
+	border: 4px solid rgb(103, 13, 0);
+	background-color: rgb(173, 3, 100);
+}

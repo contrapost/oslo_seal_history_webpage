@@ -1,0 +1,23 @@
+body {
+	background-color: rgb(153, 53, 20);
+}
+
+#logo {
+	height: 550px;
+	width: 466px;
+	margin: auto;
+	position: relative;
+}
+
+#pilene {
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	left: 104px;
+	top: 146px;
+	display: none;
+}
+
+#logo:hover #pilene {
+	display: block;
+} 
