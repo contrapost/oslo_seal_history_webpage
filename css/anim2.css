@@ -22,7 +22,7 @@ a{
 	left: 10px;
 	width: 960px;
 	height: 600px;
-	background-image: url("../bilder/side2.jpeg");
+	background-image: url("../images/side2.jpeg");
 	position: absolute;
 	overflow: hidden;
 }

@@ -16,7 +16,7 @@ body{
 	left: 10px;
 	width: 960px;
 	height: 600px;
-	background-image: url("../bilder/side7.png");
+	background-image: url("../images/side7.png");
 	position: absolute;
 	overflow: hidden;
 }

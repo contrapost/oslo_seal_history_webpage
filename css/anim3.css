@@ -7,7 +7,7 @@ body{
 	width: 960px;
 	height: 600px;
 	margin: auto;
-	background-image: url("../bilder/side3.jpeg");
+	background-image: url("../images/side3.jpeg");
 	position: absolute;
 	overflow: hidden;
 }
